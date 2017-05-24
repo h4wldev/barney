@@ -23,7 +23,7 @@ class Index {
     // this.query => GET query object
     // this.req => koa.Request
     // this.res => koa.Response
-    
+
     get() {
         // Do something!
         return 'GET METHOD';
