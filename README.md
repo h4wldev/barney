@@ -22,6 +22,7 @@ class Index {
     // this.params => URI params object like '/:id'
     // this.query => GET query object
     // this.req => koa.Request
+    // this.req.body => Body object
     // this.res => koa.Response
 
     get() {

@@ -1,6 +1,6 @@
 {
   "name": "cottage-barney",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "you can make restful api router, easier with Barney",
   "author": {
     "name": "Hawl Kim",
@@ -16,6 +16,7 @@
   },
   "main": "./lib/router.js",
   "dependencies": {
+    "co-body": "^5.1.1",
     "cottage": "^2.1.1"
   },
   "licenses": [ {
