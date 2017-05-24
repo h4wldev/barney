@@ -39,6 +39,7 @@ class Index {
 }
 
 router.use('/', new Index());
+router.use('/what/:id', new Index()); // barney also support uri param
 
 app.listen(8080);
 ```
