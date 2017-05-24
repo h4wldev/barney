@@ -27,6 +27,7 @@ class Index {
 
     get() {
         // Do something!
+        this.res.status = Router.status.OK; // We're support http status code's with 'david/http-status'
         return 'GET METHOD';
     }
     post() {
