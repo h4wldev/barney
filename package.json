@@ -1,0 +1,31 @@
+{
+  "name": "cottage-barney",
+  "version": "0.1.0",
+  "description": "you can make restful api router, easier with Barney",
+  "author": {
+    "name": "Hawl Kim",
+    "email": "h4wldev@gmail.com",
+    "url": "http://github.com/h4wldev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/h4wldev/cottage-barney.git"
+  },
+  "bugs": {
+    "url": "http://github.com/h4wldev/cottage-barney/issues"
+  },
+  "main": "./lib/router.js",
+  "dependencies": {
+    "cottage": "^2.1.1"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  } ],
+  "keywords": [
+    "router",
+    "cottage",
+    "restful",
+    "api"
+  ]
+}
