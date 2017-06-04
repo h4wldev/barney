@@ -57,7 +57,7 @@ const Router = require('cottage-barney');
 
 const app = cottage();
 const router = new Router(app);
-ㅞㅡ
+
 const middleware = function(router) { // 1 argument is required
     router.res["status"] = Router.status.CREATED; // You can handling resposne, request, params, query
 };
