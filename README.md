@@ -62,7 +62,7 @@ const middleware = function(router) { // 1 argument is required
     router.res["status"] = Router.status.CREATED; // You can handling resposne, request, params, query
 };
 
-router.use([ middleware ]);
+router.use(middleware);
 router.set('/', new Route());
 
 /*
